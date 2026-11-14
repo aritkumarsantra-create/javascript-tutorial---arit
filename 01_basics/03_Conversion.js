@@ -65,7 +65,8 @@ console.log("the number to string is :-",ValueinString);
 console.log("Type of ValueinString is :-",typeof ValueinString);
 
 /*
-The conversion of Number in String can also be done with String() Function .
+The conversion of Number in String can 
+also be done with String() Function .
 */
 
 
