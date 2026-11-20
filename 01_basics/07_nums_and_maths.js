@@ -32,4 +32,13 @@ console.log(Math)
 //Object [Math] {} it means Math is an object and it has many properties and methods.
 
 console.log(Math.abs(-4)) 
-console.log(maths.round(4.7))
+console.log(Math.round(4.7))
+console.log(Math.ceil(4.5))
+console.log(Math.floor(5.7))
+console.log(Math.min(2,6,7,7,86,5,))
+console.log(Math.max(2,6,7,7,86,5,))
+
+//-----------Parctical use ------------------
+
+console.log(Math.random()) // it will give us a random number between 0 and 1
+console
