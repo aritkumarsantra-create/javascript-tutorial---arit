@@ -38,7 +38,20 @@ console.log(Math.floor(5.7))
 console.log(Math.min(2,6,7,7,86,5,))
 console.log(Math.max(2,6,7,7,86,5,))
 
-//-----------Parctical use ------------------
+console.log("----------------Random Function----------------")
+//-----------Practical use ------------------
 
 console.log(Math.random()) // it will give us a random number between 0 and 1
-console
+console.log ((Math.random()*10) + 1) 
+console.log (Math.floor((Math.random()*10) + 1)) 
+
+const min = 10
+const max = 20
+
+console.log (Math.floor(Math.random()*(max - min + 1)) + min) 
+/* sometime you have to define a max and min value and you have to randomize it between this range 
+,here we have multiplied (max - min ) to get the value and +1 to avoid zero
+then we have added min to get the value > min .
+*/
+
+
