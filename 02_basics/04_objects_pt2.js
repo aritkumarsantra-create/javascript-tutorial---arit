@@ -60,3 +60,28 @@ console.log("Values of Instauser",Object.values(InstaUser));
 console.log("Entries of Instauser",Object.entries(InstaUser));
 
 console.log(InstaUser.hasOwnProperty("isLoggedIn"));
+
+
+//-----------------destructuring of objects -----------------
+
+console.log("-----------------destructuring of objects -----------------");
+
+const course = {
+    coursename: "js in hindi ",
+    price : "999",
+}
+
+console.log(course.coursename);
+
+const {coursename: cName} = course //destructuring the object 
+console.log(cName); //desrturctured object  
+
+// {
+//     "name": "Aritkumar",
+//     "coursename": "js in hindi",
+//     "learner": "Aritkumar"
+    
+// }
+//this is json .
+//api are usually in object .
+//sometimes it is in array .
