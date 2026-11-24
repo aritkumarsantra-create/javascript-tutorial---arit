@@ -14,7 +14,8 @@ const all_heroes = marvel_name.concat(dc_name)
 console.log(all_heroes);
 //bettter way to merge array but still lengthy to concatenate more than two array
 
-const new_all_heroes = [...marvel_name, ...dc_name]
+const new_all_heroes = [...marvel_name, ...dc_name]//here ... is a spread operator 
+
 console.log(new_all_heroes);
 //best way to merge array ,less complex to merge more than two array .
 
